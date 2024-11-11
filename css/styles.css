@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+	background: #000;
+}
+
+@font-face {
+	font-family: 'MonumentExtended';
+	src: url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff')  format('woff');
+}
+@import url('https://fonts.cdnfonts.com/css/voyage');
+
+nav {
+	background: rgb(51, 51, 65,0.9);
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: 'MonumentExtended',sans-serif;
+    }
+    
+    .menu-item {
+	flex: 1;
+    }
+    
+    .menu-left {
+	text-align: left;
+	margin-left: 4em;
+    }
+    
+    .menu-center {
+	text-align: center;
+	color: #fff;
+
+    }
+    
+    .menu-right {
+	text-align: right;
+	margin-right: 4em;
+    }
+    
+    .menu-link {
+	padding: 0 30px;
+	color: #fff;
+    }
+
+.hero-image {
+	position: absolute;
+	top: 1;
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-img {
+	position: absolute;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	width: 40%;
+	height: 100vh;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.box {
+	background: #000;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.images {
+	position: absolute;
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 450px;
+	background:#fff;
+}
+
+.left {
+	background: url("../images/virat.jpg")
+		no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.right {
+	background: url("../images/img-three.jpeg")
+		no-repeat 50% 50%;
+	background-size: cover;
+}
+
+p {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family:fantasy;
+	font-size: 300px;
+	font-weight: 100;
+}
+
+.title .letter {
+	display: inline-block;
+	line-height: 1em;
+}
+
+
+.sidebar-text {
+	font-family: "MonumentExtended",sans-serif;
+	position: absolute;
+	top: 20%;
+	right: 0.4em;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	color: transparent;
+	-webkit-text-stroke: 1px rgb(117, 113, 113);
+    }
+    
+    .projects {
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	font-family: 'MonumentExtended',sans-serif;
+
+    }
+    
+    .img-nav {
+	position: absolute;
+	right: 10%;
+	bottom: 13%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "MonumentExtended",sans-serif;
+
+    }
+    
+    .next {
+	position: relative;
+	top: 40px;
+	left: 80px;
+	font-family: 'MonumentExtended',sans-serif;
+
+    }
+    
